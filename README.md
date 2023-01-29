@@ -4,7 +4,7 @@ This is more information on rocket league's parsed json format
 
 ## Main Headers
 
-So the replay json is made of the following main headers
+So the replay json is made of the following main keys
 
 - class_indices
 - content_crc
@@ -28,7 +28,7 @@ So the replay json is made of the following main headers
 ---
 From the above list the following are actually important:
 
-### objects
+## objects
 
 So this is a list of all the objects (names as strings) where the indices correspond to the object_id used in each frame of **network_frames**
 
@@ -42,9 +42,9 @@ therefore the object_id in a frame is
 
 so on and so forth 
 
-**The following object types are important:**
+*The following object types are important:*
 
-#### TAGame.RBActor_TA:ReplicatedRBState
+### TAGame.RBActor_TA:ReplicatedRBState
 
 It holds the Players rigidbody information (ie. the postion, rotation etc)
 
@@ -64,7 +64,7 @@ the `attribute` keys are:
   *  sleeping : bool for sleeping
 
 
-### network_frames
+## network_frames
 This is a dictionary containing one key "frames"
 
 "frames" is a list of dictionaries where each dictionary is a `frame`
