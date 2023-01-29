@@ -70,6 +70,7 @@ This is a dictionary containing one key "frames"
 "frames" is a list of dictionaries where each dictionary is a `frame`
 
 **frame**
+
 Each frame contains the following keys:
 - new_actors
 - updated_actors
@@ -82,6 +83,7 @@ The keys **deleted_actors**, **updated_actors**, **deleted_actors** all contain 
 idk why but never seem to have a non-empty **deleted_actors**
 
 **delta** is the time difference between frames
+
 **time** contains the current time according to the replay file (not the same as game time)
 
 What is a **actor**?
