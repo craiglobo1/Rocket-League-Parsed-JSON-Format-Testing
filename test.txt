@@ -1,0 +1,390 @@
+{
+   "deleted_actors": [],
+   "delta": 0.11807407438755035,
+   "new_actors": [
+      {
+         "actor_id": 39,
+         "initial_trajectory": {
+            "location": {
+               "x": 256,
+               "y": 3840,
+               "z": 83
+            },
+            "rotation": {
+               "pitch": -64,
+               "roll": null,
+               "yaw": null
+            }
+         },
+         "name_id": 41,
+         "object_id": 267
+      },
+      {
+         "actor_id": 40,
+         "initial_trajectory": {
+            "location": {
+               "x": 256,
+               "y": 3840,
+               "z": 44
+            },
+            "rotation": null
+         },
+         "name_id": 42,
+         "object_id": 295
+      },
+      {
+         "actor_id": 41,
+         "initial_trajectory": {
+            "location": {
+               "x": 256,
+               "y": 3840,
+               "z": 44
+            },
+            "rotation": null
+         },
+         "name_id": 43,
+         "object_id": 273
+      },
+      {
+         "actor_id": 42,
+         "initial_trajectory": {
+            "location": {
+               "x": 256,
+               "y": 3840,
+               "z": 44
+            },
+            "rotation": null
+         },
+         "name_id": 44,
+         "object_id": 282
+      },
+      {
+         "actor_id": 43,
+         "initial_trajectory": {
+            "location": {
+               "x": 256,
+               "y": 3840,
+               "z": 44
+            },
+            "rotation": null
+         },
+         "name_id": 45,
+         "object_id": 279
+      },
+      {
+         "actor_id": 44,
+         "initial_trajectory": {
+            "location": {
+               "x": 256,
+               "y": 3840,
+               "z": 44
+            },
+            "rotation": null
+         },
+         "name_id": 46,
+         "object_id": 275
+      },
+      {
+         "actor_id": 45,
+         "initial_trajectory": {
+            "location": {
+               "x": 0,
+               "y": 0,
+               "z": 0
+            },
+            "rotation": null
+         },
+         "name_id": 47,
+         "object_id": 233
+      },
+      {
+         "actor_id": 46,
+         "initial_trajectory": {
+            "location": {
+               "x": 0,
+               "y": 0,
+               "z": 0
+            },
+            "rotation": null
+         },
+         "name_id": 48,
+         "object_id": 248
+      }
+   ],
+   "time": 7.425286293029785,
+   "updated_actors": [
+      {
+         "actor_id": 39,
+         "attribute": {
+            "RigidBody": {
+               "angular_velocity": null,
+               "linear_velocity": null,
+               "location": {
+                  "x": 256.0,
+                  "y": 3839.989990234375,
+                  "z": 83.0
+               },
+               "rotation": {
+                  "w": -0.7071067690849304,
+                  "x": 2.6973982585332124e-06,
+                  "y": 2.6973982585332124e-06,
+                  "z": 0.7071067690849304
+               },
+               "sleeping": true
+            }
+         },
+         "object_id": 55,
+         "stream_id": 51
+      },
+      {
+         "actor_id": 39,
+         "attribute": {
+            "TeamPaint": {
+               "accent_color": 0,
+               "accent_finish": 270,
+               "primary_color": 33,
+               "primary_finish": 270,
+               "team": 1
+            }
+         },
+         "object_id": 264,
+         "stream_id": 69
+      },
+      {
+         "actor_id": 40,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 39
+            }
+         },
+         "object_id": 269,
+         "stream_id": 22
+      },
+      {
+         "actor_id": 40,
+         "attribute": {
+            "Byte": 84
+         },
+         "object_id": 283,
+         "stream_id": 24
+      },
+      {
+         "actor_id": 41,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 39
+            }
+         },
+         "object_id": 269,
+         "stream_id": 22
+      },
+      {
+         "actor_id": 42,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 39
+            }
+         },
+         "object_id": 269,
+         "stream_id": 22
+      },
+      {
+         "actor_id": 43,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 39
+            }
+         },
+         "object_id": 269,
+         "stream_id": 22
+      },
+      {
+         "actor_id": 44,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 39
+            }
+         },
+         "object_id": 269,
+         "stream_id": 22
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "String": "Myrtle"
+         },
+         "object_id": 163,
+         "stream_id": 34
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 3
+            }
+         },
+         "object_id": 161,
+         "stream_id": 32
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "Boolean": true
+         },
+         "object_id": 154,
+         "stream_id": 25
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "Int": 49
+         },
+         "object_id": 171,
+         "stream_id": 40
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "Int": 40
+         },
+         "object_id": 179,
+         "stream_id": 48
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "LoadoutsOnline": {
+               "blue": [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+               ],
+               "orange": [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+               ],
+               "unknown1": true,
+               "unknown2": false
+            }
+         },
+         "object_id": 187,
+         "stream_id": 56
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "TeamLoadout": {
+               "blue": {
+                  "antenna": 0,
+                  "banner": 2526,
+                  "body": 23,
+                  "decal": 308,
+                  "engine_audio": 0,
+                  "goal_explosion": 1903,
+                  "product_id": 0,
+                  "rocket_trail": 67,
+                  "topper": 0,
+                  "trail": 1948,
+                  "unknown1": 0,
+                  "unknown2": 0,
+                  "version": 22,
+                  "wheels": 377
+               },
+               "orange": {
+                  "antenna": 0,
+                  "banner": 2526,
+                  "body": 23,
+                  "decal": 308,
+                  "engine_audio": 0,
+                  "goal_explosion": 1903,
+                  "product_id": 0,
+                  "rocket_trail": 67,
+                  "topper": 0,
+                  "trail": 1948,
+                  "unknown1": 0,
+                  "unknown2": 0,
+                  "version": 22,
+                  "wheels": 377
+               }
+            }
+         },
+         "object_id": 188,
+         "stream_id": 57
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 1
+            }
+         },
+         "object_id": 191,
+         "stream_id": 60
+      },
+      {
+         "actor_id": 45,
+         "attribute": {
+            "Boolean": true
+         },
+         "object_id": 198,
+         "stream_id": 67
+      },
+      {
+         "actor_id": 46,
+         "attribute": {
+            "ActiveActor": {
+               "active": true,
+               "actor": 45
+            }
+         },
+         "object_id": 240,
+         "stream_id": 27
+      }
+   ]
+}
