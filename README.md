@@ -106,6 +106,8 @@ Keys for only actors in **updated_actors**
 
 ## Information we need
 * Player_Info
+    * name
+    * id
     * pos_x
     * pos_y
     * pos_z
@@ -126,7 +128,6 @@ Keys for only actors in **updated_actors**
     * jump_active
     * boost
     * boost_active
-    * boost_collect
 * Ball_Info
     * ball-pos_x
     * ball-pos_y
