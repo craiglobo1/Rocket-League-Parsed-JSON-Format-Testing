@@ -42,9 +42,9 @@ therefore the object_id in a frame is
 
 so on and so forth 
 
-The following object types are important:
+**The following object types are important:**
 
-**TAGame.RBActor_TA:ReplicatedRBState**
+#### TAGame.RBActor_TA:ReplicatedRBState
 
 It holds the Players rigidbody information (ie. the postion, rotation etc)
 
@@ -64,7 +64,7 @@ the `attribute` keys are:
   *  sleeping : bool for sleeping
 
 
-#### network_frames
+### network_frames
 This is a dictionary containing one key "frames"
 
 "frames" is a list of dictionaries where each dictionary is a `frame`
