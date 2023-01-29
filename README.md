@@ -45,6 +45,7 @@ so on and so forth
 The following object types are important:
 
 **TAGame.RBActor_TA:ReplicatedRBState**
+
 It holds the Players rigidbody information (ie. the postion, rotation etc)
 
 the `attribute` keys are:
@@ -84,6 +85,7 @@ idk why but never seem to have a non-empty **deleted_actors**
 **time** contains the current time according to the replay file (not the same as game time)
 
 What is a **actor**?
+
 A actor is a dictionary with the following keys:
 - `actor_id` : unique id for each actor
 - `object_id` : correlates to the an [object](#objects)
