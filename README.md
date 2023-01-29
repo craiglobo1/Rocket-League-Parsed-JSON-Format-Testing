@@ -101,3 +101,50 @@ Keys for only actors in **updated_actors**
 - `stream_id`
 
   
+
+---
+
+## Information we need
+* Player_Info
+    * pos_x
+    * pos_y
+    * pos_z
+    * vel_x
+    * vel_y
+    * vel_z
+    * ang_vel_x
+    * ang_vel_y
+    * ang_vel_z
+    * throttle
+    * steer
+    * handbrake
+    * rot_x
+    * rot_y
+    * rot_z
+    * dodge_active
+    * double_jump_active
+    * jump_active
+    * boost
+    * boost_active
+    * boost_collect
+* Ball_Info
+    * ball-pos_x
+    * ball-pos_y
+    * ball-pos_z
+    * ball-vel_x
+    * ball-vel_y
+    * ball-vel_z
+    * ball-ang_vel_x
+    * ball-ang_vel_y
+    * ball-ang_vel_z
+    * ball-hit_team_no
+    * ball-rot_x
+    * ball-rot_y
+    * ball-rot_z
+* Game_Info
+    * game-time
+    * game-delta
+    * game-seconds_remaining
+    * game-replicated_seconds_remaining
+    * game-ball_has_been_hit
+    * game-goal_number
